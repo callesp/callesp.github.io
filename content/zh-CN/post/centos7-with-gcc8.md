@@ -6,7 +6,7 @@ tags:
   - 学习
 categories:
   - Linux
-toc: true
+toc: false
 type: about
 ---
 
