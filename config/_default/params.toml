@@ -1,0 +1,36 @@
+[TagsCloud]
+  Enable = true
+  Limit = 10
+
+[Share]
+  Enable = true
+  AddthisId = "Your AddthisId"
+
+[Comment]
+  Enable = true
+  Module = "Waline"
+  LiveReId = "Your LiveReId"
+  WalineSerURL = "https://blog-waline-5q21bubqj-callesp.vercel.app/"
+
+  # If Module is "Utterances",see https://utteranc.es/
+  UtterancesRepo = "owner/repo"
+  UtterancesTheme = "github-light"
+  UtterancesTitle = "pathname"
+
+[LeanCloud]
+  AppId = "U16oUXVE5bmAeB790EEYSqRe-MdYXbMMI"
+  AppKey = "WzeRlve6J6q61rxdxChW7fg9"
+  ServerURL = "https://u16ouxve.api.lncldglobal.com"
+
+[Statis]
+  BusuanziCounter = true
+#  CNNZSiteId = "Your CNNZSiteId"
+#  BaiduSiteId = "Your BaiduSiteId"
+#  GoogleSiteId = "Your GoogleSiteId"
+
+[OnlineIM]
+  Enable = false
+#  DaoVoiceId = "Your DaoVoiceId"
+
+[Others]
+#  RevolverMapId = "Your RevolverMapId"
