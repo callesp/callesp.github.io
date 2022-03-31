@@ -6,8 +6,6 @@ tags:
   - 学习
 categories:
   - Linux
-toc: false
-type: about
 ---
 
 # Centos7.9安装gcc8环境
