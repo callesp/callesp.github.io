@@ -4,8 +4,8 @@
   weight = 1
   contentdir = "content/zh-CN"
 
-[en]
-  title = "Loving life and dreams."
-  languageName = "English"
-  weight = 2
-  contentdir = "content/en"
+# [en]
+#   title = "Loving life and dreams."
+#   languageName = "English"
+#   weight = 2
+#   contentdir = "content/en"
