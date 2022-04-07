@@ -1,7 +1,11 @@
 ---
 title: "Helix_with_tmux"
 date: 2022-04-07T08:45:04+08:00
-draft: true
+draft: false
+tags: 
+  - Dev
+categories:
+  - Linux
 ---
 
 
