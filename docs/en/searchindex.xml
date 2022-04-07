@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Centos7.9安装gcc8环境</title><url>http://callesp.github.io/en/zh-cn/post/centos7-with-gcc8/</url><categories><category>Linux</category></categories><tags><tag>学习</tag></tags><content type="html"> Centos7.9安装gcc8环境 执行命令
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Helix_with_tmux</title><url>https://callesp.github.io/en/zh-cn/post/helix_with_tmux/</url><categories/><tags/><content type="html"> helix结合tmux使用注意事项 在tmux环境使用helix的时候发现使用Esc执行模式切换会有延迟，需要在 ~/.tmux.conf 中添加如下配置:
+ set escape-time 0
+然后关闭并重新打开tmux即可</content></entry><entry><title>Centos7.9安装gcc8环境</title><url>https://callesp.github.io/en/zh-cn/post/centos7-with-gcc8/</url><categories><category>Linux</category></categories><tags><tag>学习</tag></tags><content type="html"> Centos7.9安装gcc8环境 执行命令
 yum install centos-release-scl yum install devtoolset-8-gcc* 完成后执行环境切换
 scl enable devtoolset-8 bash 查看gcc版本
-gcc --version</content></entry><entry><title>Markdown语法手册</title><url>http://callesp.github.io/en/zh-cn/post/markdown-syntax/</url><categories><category>themes</category><category>syntax</category></categories><tags><tag>markdown</tag><tag>css</tag><tag>html</tag></tags><content type="html"> 本文提供了一个可以在 Hugo 内容文件中使用的基本Markdown语法示例，还展示了基本 HTML 元素在 Hugo 主题中是否使用 CSS 装饰。
+gcc --version</content></entry><entry><title>Markdown语法手册</title><url>https://callesp.github.io/en/zh-cn/post/markdown-syntax/</url><categories><category>themes</category><category>syntax</category></categories><tags><tag>markdown</tag><tag>css</tag><tag>html</tag></tags><content type="html"> 本文提供了一个可以在 Hugo 内容文件中使用的基本Markdown语法示例，还展示了基本 HTML 元素在 Hugo 主题中是否使用 CSS 装饰。
 标题 下面的 HTML 代码&lt;h1>—&lt;h6> 元素表示六个级别的节标题。 &lt;h1>是最高的节级别，&lt;h6>是最低的节级别。
 H1 H2 H3 H4 H5 H6 段落 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 伊塔图？厨房里有很多东西，我不知道他们喜欢吃什么，或者他们喜欢吃什么。
@@ -27,7 +29,7 @@ H2O
 Xn + Yn = Zn
 按 CTRL+ALT+Delete 组合键结束会话。
 大多数蝾螈在夜间活动，捕食昆虫、蠕虫和其他小动物。
-以上引文摘自Rob Pike在2015年11月18日Gopherfest上的演讲。&#160;&#8617;&#xfe0e;</content></entry><entry><title>数据公式设置显示</title><url>http://callesp.github.io/en/zh-cn/post/math-typesetting/</url><categories/><tags/><content type="html"> Hugo项目中的数学表示法可以通过使用第三方JavaScript库来实现。
+以上引文摘自Rob Pike在2015年11月18日Gopherfest上的演讲。&#160;&#8617;&#xfe0e;</content></entry><entry><title>数据公式设置显示</title><url>https://callesp.github.io/en/zh-cn/post/math-typesetting/</url><categories/><tags/><content type="html"> Hugo项目中的数学表示法可以通过使用第三方JavaScript库来实现。
 在这个例子中，我们将使用 MathJax
 Create a post under /content/en[zh-CN]/math.md
 可以全局启用MathJax，请在项目配置中将参数math设置为true
@@ -73,7 +75,7 @@ $$ \frac{n!}{k!(n-k)!} = {^n}C_k {n \choose k} $$
 矩阵 $$ \begin{pmatrix} a_{11} &amp; a_{12} &amp; a_{13}\ a_{21} &amp; a_{22} &amp; a_{23}\ a_{31} &amp; a_{32} &amp; a_{33} \end{pmatrix} \begin{bmatrix} 0 &amp; \cdots &amp; 0 \ \vdots &amp; \ddots &amp; \vdots \ 0 &amp; \cdots &amp; 0 \end{bmatrix} $$
 标点符号 $$ f(x) = \sqrt{1+x} \quad (x \ge -1) f(x) \sim x^2 \quad (x\to\infty) $$
 现在用标点符号:
-$$ f(x) = \sqrt{1+x}, \quad x \ge -1 f(x) \sim x^2, \quad x\to\infty $$</content></entry><entry><title>关于我</title><url>http://callesp.github.io/en/about.html</url><categories/><tags/><content type="html"> Hugo是用Go编写的一个开放源代码静态站点生成器，可在Apache许可证2.0下使用。 Hugo支持TOML, YAML和JSON数据文件类型，Markdown和HTML内容文件，并使用短代码添加丰富的内容。其他值得注意的功能包括分类法、多语言模式、图像处理、自定义输出格式、HTML/CSS/JS缩小和对Sass SCSS工作流的支持。
+$$ f(x) = \sqrt{1+x}, \quad x \ge -1 f(x) \sim x^2, \quad x\to\infty $$</content></entry><entry><title>关于我</title><url>https://callesp.github.io/en/about.html</url><categories/><tags/><content type="html"> Hugo是用Go编写的一个开放源代码静态站点生成器，可在Apache许可证2.0下使用。 Hugo支持TOML, YAML和JSON数据文件类型，Markdown和HTML内容文件，并使用短代码添加丰富的内容。其他值得注意的功能包括分类法、多语言模式、图像处理、自定义输出格式、HTML/CSS/JS缩小和对Sass SCSS工作流的支持。
 Hugo使用了多种开源项目，包括:
 https://github.com/yuin/goldmark https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Hugo是博客、企业网站、创意作品集、在线杂志、单页应用程序甚至是数千页的网站的理想选择。
 Hugo适合那些想要手工编写自己的网站代码，而不用担心设置复杂的运行时、依赖关系和数据库的人。
