@@ -5,9 +5,10 @@ vim ~/.tmux.conf
 tmux2.1之后:
 set-option -g mouse on
 tmux2.1之前:
-setw -g mouse-resize-pane on setw -g mouse-select-pane on setw -g mouse-select-window on setw -g mode-mouse on</content></entry><entry><title>Helix_with_tmux</title><url>https://callesp.github.io/post/helix_with_tmux/</url><categories><category>Linux</category></categories><tags><tag>Dev</tag></tags><content type="html"> helix结合tmux使用注意事项 在tmux环境使用helix的时候发现使用Esc执行模式切换会有延迟，需要在 ~/.tmux.conf 中添加如下配置:
- set escape-time 0
-然后关闭并重新打开tmux即可</content></entry><entry><title>Centos7.9安装gcc8环境</title><url>https://callesp.github.io/post/centos7-with-gcc8/</url><categories><category>Linux</category></categories><tags><tag>Dev</tag></tags><content type="html"> Centos7.9安装gcc8环境 执行命令
+setw -g mouse-resize-pane on setw -g mouse-select-pane on setw -g mouse-select-window on setw -g mode-mouse on</content></entry><entry><title>Helix_with_tmux</title><url>https://callesp.github.io/post/helix_with_tmux/</url><categories><category>Linux</category></categories><tags><tag>Dev</tag></tags><content type="html"> helix结合tmux使用注意事项 在tmux环境使用helix的时候发现使用Esc执行模式切换会有延迟，需要在 ~/.tmux.conf 中添加如下配置:  set escape-time 0
+ 然后关闭并重新打开tmux即可
+helix默认在有些terminal会遇到无法设置theme的问题，需要打开true-color的支持,在config.toml中写入:
+[editor] true-color = true</content></entry><entry><title>Centos7.9安装gcc8环境</title><url>https://callesp.github.io/post/centos7-with-gcc8/</url><categories><category>Linux</category></categories><tags><tag>Dev</tag></tags><content type="html"> Centos7.9安装gcc8环境 执行命令
 yum install centos-release-scl yum install devtoolset-8-gcc* 完成后执行环境切换
 scl enable devtoolset-8 bash 查看gcc版本
 gcc --version</content></entry><entry><title>Markdown语法手册</title><url>https://callesp.github.io/post/markdown-syntax/</url><categories><category>themes</category><category>syntax</category></categories><tags><tag>markdown</tag><tag>css</tag><tag>html</tag></tags><content type="html"> 本文提供了一个可以在 Hugo 内容文件中使用的基本Markdown语法示例，还展示了基本 HTML 元素在 Hugo 主题中是否使用 CSS 装饰。
